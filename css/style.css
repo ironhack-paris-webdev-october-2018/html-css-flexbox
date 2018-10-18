@@ -1,0 +1,55 @@
+header {
+  /* activates flexbox properties (justify-content, align-items, etc.) */
+  display: flex;
+  /* justify-content for HORIZONTAL arrangement */
+  justify-content: space-between;
+  /* align-items for VERTICAL arrangement */
+  align-items: center;
+
+  height: 50px;
+}
+
+nav {
+  /* activates flexbox properties (justify-content, align-items, etc.) */
+  display: flex;
+  /* align-items for VERTICAL arrangement */
+  align-items: center;
+
+  border: 2px solid orange;
+}
+
+.logo {
+  color: #e80615;
+  font-size: 25px;
+  margin: 0 25px;
+  text-decoration: none;
+}
+
+a {
+  margin: 0 10px;
+}
+
+div {
+  border: 2px solid rebeccapurple;
+}
+
+section {
+  border: 2px solid black;
+  margin: 20px 0;
+}
+
+ul {
+  /* activates flexbox properties (justify-content, align-items, etc.) */
+  display: flex;
+  /* justify-content for HORIZONTAL arrangement */
+  justify-content: space-evenly;
+
+  padding-left: 0;
+  list-style: none;
+}
+
+li {
+  width: 15%;
+  padding: 2%;
+  border: 1px solid gray;
+}
